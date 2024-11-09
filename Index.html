@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>YAY! It's BOGO</h2>
+
+        <div class="option">
+            <input type="radio" name="unit" id="unit1" checked>
+            <label for="unit1">
+                <span class="badge">10% Off</span>
+                <div class="option-info">
+                    <p>1 Unit</p>
+                    <p>$10.00 USD</p>
+                    <p class="old-price">$24.00 USD</p>
+                </div>
+                <p>Standard Price</p>
+            </label>
+        </div>
+
+        <div class="option popular">
+            <input type="radio" name="unit" id="unit2">
+            <label for="unit2">
+                <span class="badge popular-badge">MOST POPULAR</span>
+                <span class="badge">20% Off</span>
+                <div class="option-info">
+                    <p>2 Unit</p>
+                    <p>$18.00 USD</p>
+                    <p class="old-price">$24.00 USD</p>
+                </div>
+                <div class="selectors">
+                    <select>
+                        <option>Black</option>
+                        <option>White</option>
+                    </select>
+                    <select>
+                        <option>Size S</option>
+                        <option>Size M</option>
+                    </select>
+                </div>
+            </label>
+        </div>
+
+        <div class="option">
+            <input type="radio" name="unit" id="unit3">
+            <label for="unit3">
+                <span class="badge">30% Off</span>
+                <div class="option-info">
+                    <p>3 Unit</p>
+                    <p>$24.00 USD</p>
+                    <p class="old-price">$24.00 USD</p>
+                </div>
+            </label>
+        </div>
+
+        <p class="free-delivery">Free Delivery</p>
+        <p class="total">Total: $18.00 USD</p>
+
+
+        <button onclick="addToCart()">Add to Cart</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
